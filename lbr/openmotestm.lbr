@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1008,6 +1008,12 @@ Source: www.qprox.com ... QT1106_-8IR0.07-16262.pdf</description>
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="25">&gt;VALUE</text>
 </package>
+<package name="TAP">
+<description>TAP for the pin when not be used.</description>
+<smd name="P$1" x="0" y="0" dx="1.1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.27" size="0.4064" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F103X">
@@ -1023,9 +1029,9 @@ LQFP64 pinout</description>
 <pin name="PC15/OSC32_OUT" x="-63.5" y="22.86" length="middle"/>
 <pin name="OSC_IN" x="-63.5" y="17.78" length="middle"/>
 <pin name="OSC_OUT" x="-63.5" y="12.7" length="middle"/>
-<pin name="!RESET" x="-63.5" y="7.62" length="middle"/>
+<pin name="!RESET" x="-63.5" y="7.62" length="middle" direction="out"/>
 <pin name="PC0/ADC123_IN10" x="-63.5" y="2.54" length="middle"/>
-<pin name="PC1/ADC123_IN11" x="-63.5" y="-2.54" length="middle"/>
+<pin name="PC1/ADC123_IN11" x="-63.5" y="-2.54" length="middle" direction="out"/>
 <pin name="PC2/ADC123_IN12" x="-63.5" y="-7.62" length="middle"/>
 <pin name="PC3/ADC123_IN13" x="-63.5" y="-12.7" length="middle"/>
 <pin name="VSSA" x="-63.5" y="-17.78" length="middle" direction="pwr"/>
@@ -1056,11 +1062,11 @@ LQFP64 pinout</description>
 <pin name="PC6/TIM8_CH1" x="63.5" y="-17.78" length="middle" rot="R180"/>
 <pin name="PC7/TIM8_CH2" x="63.5" y="-12.7" length="middle" rot="R180"/>
 <pin name="PC8/TIM8_CH3" x="63.5" y="-7.62" length="middle" rot="R180"/>
-<pin name="PC9/TIM8_CH4" x="63.5" y="-2.54" length="middle" rot="R180"/>
+<pin name="PC9/TIM8_CH4" x="63.5" y="-2.54" length="middle" direction="out" rot="R180"/>
 <pin name="PA8/USART_CK" x="63.5" y="2.54" length="middle" rot="R180"/>
 <pin name="PA9/USART1_TX" x="63.5" y="7.62" length="middle" rot="R180"/>
-<pin name="PA10/USART1_RX" x="63.5" y="12.7" length="middle" direction="in" rot="R180"/>
-<pin name="PA11/USART1_CTS" x="63.5" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="PA10/USART1_RX" x="63.5" y="12.7" length="middle" rot="R180"/>
+<pin name="PA11/USART1_CTS" x="63.5" y="17.78" length="middle" rot="R180"/>
 <pin name="PA12/USART1_RTS" x="63.5" y="22.86" length="middle" rot="R180"/>
 <pin name="PA13/JTMS-SWDIO" x="63.5" y="27.94" length="middle" rot="R180"/>
 <pin name="VSS2" x="63.5" y="33.02" length="middle" direction="pwr" rot="R180"/>
@@ -1123,6 +1129,7 @@ LQFP64 pinout</description>
 <pin name="AVSS@32" x="-17.78" y="33.02" length="middle" rot="R270"/>
 <text x="-12.7" y="7.62" size="5.08" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-10.16" size="5.08" layer="96">&gt;VALUE</text>
+<pin name="EXP" x="-25.4" y="33.02" length="middle" rot="R270"/>
 </symbol>
 <symbol name="CRYSTAL4">
 <description>Crystal</description>
@@ -1219,6 +1226,13 @@ LQFP64 pinout</description>
 <pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
 <text x="-5.08" y="6.096" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="TAP">
+<description>tap pin</description>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="TAP" x="0" y="-2.54" length="middle" rot="R90"/>
+<text x="-3.048" y="-2.794" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.794" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1333,6 +1347,7 @@ LQFP64 pinout</description>
 <connect gate="G$1" pin="DVSS@21" pad="21"/>
 <connect gate="G$1" pin="DVSS@7" pad="7"/>
 <connect gate="G$1" pin="EVDD" pad="28"/>
+<connect gate="G$1" pin="EXP" pad="EXP"/>
 <connect gate="G$1" pin="IRQ" pad="24"/>
 <connect gate="G$1" pin="MISO" pad="20"/>
 <connect gate="G$1" pin="MOSI" pad="22"/>
@@ -1558,6 +1573,22 @@ http://spec_sheets.e-switch.com/specs/P420000.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TAP">
+<description>tap pin for the pin which is not used.</description>
+<gates>
+<gate name="G$1" symbol="TAP" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TAP">
+<connects>
+<connect gate="G$1" pin="TAP" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
