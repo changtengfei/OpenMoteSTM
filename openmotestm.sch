@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -118,6 +132,9 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -191,24 +208,6 @@
 <smd name="P$2" x="2.075" y="0" dx="0.95" dy="1.4" layer="1"/>
 <text x="-3.048" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.048" y="-3.302" size="1.27" layer="25">&gt;VALUE</text>
-</package>
-<package name="CX-4025">
-<description>CX-4025  crystal SMD</description>
-<wire x1="-2" y1="1.25" x2="2" y2="1.25" width="0.127" layer="21"/>
-<wire x1="2" y1="1.25" x2="2" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.25" x2="-2" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.25" x2="-2" y2="1.25" width="0.127" layer="21"/>
-<rectangle x1="-2" y1="0.35" x2="-1" y2="1.25" layer="21"/>
-<rectangle x1="1" y1="0.35" x2="2" y2="1.25" layer="21"/>
-<rectangle x1="-2" y1="-1.25" x2="-1" y2="-0.35" layer="21"/>
-<rectangle x1="1" y1="-1.25" x2="2" y2="-0.35" layer="21"/>
-<smd name="P$1" x="-1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="P$2" x="-1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="P$3" x="1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="P$4" x="1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<circle x="-2.286" y="1.016" radius="0.254" width="0.127" layer="21"/>
-<text x="-2.032" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-2.032" size="0.4064" layer="25">&gt;VALUE</text>
 </package>
 <package name="XBEE-1">
 <wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.2032" layer="51"/>
@@ -1037,6 +1036,24 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/288945048AD7C7019_20_1_2
 <text x="-0.635" y="0.635" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.27" size="0.4064" layer="25">&gt;VALUE</text>
 </package>
+<package name="CX-4025">
+<description>CX-4025  crystal SMD</description>
+<wire x1="-2" y1="1.25" x2="2" y2="1.25" width="0.127" layer="21"/>
+<wire x1="2" y1="1.25" x2="2" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.25" x2="-2" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.25" x2="-2" y2="1.25" width="0.127" layer="21"/>
+<rectangle x1="-2" y1="0.35" x2="-1" y2="1.25" layer="21"/>
+<rectangle x1="1" y1="0.35" x2="2" y2="1.25" layer="21"/>
+<rectangle x1="-2" y1="-1.25" x2="-1" y2="-0.35" layer="21"/>
+<rectangle x1="1" y1="-1.25" x2="2" y2="-0.35" layer="21"/>
+<smd name="P$1" x="-1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$2" x="-1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$4" x="1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$3" x="1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<circle x="-2.286" y="1.016" radius="0.254" width="0.127" layer="21"/>
+<text x="-2.032" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-2.032" size="0.4064" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ABS07">
@@ -1093,19 +1110,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/288945048AD7C7019_20_1_2
 <circle x="5.08" y="-2.54" radius="0.71841875" width="0.254" layer="94"/>
 <text x="-5.08" y="3.048" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
-</symbol>
-<symbol name="CRYSTAL4">
-<description>Crystal</description>
-<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="HOT@1" x="10.16" y="5.08" length="middle" rot="R180"/>
-<pin name="GND@2" x="10.16" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="HOT@3" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="GND@4" x="10.16" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<text x="-7.366" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.366" y="-7.366" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="XBEE-1">
 <wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
@@ -1257,6 +1261,19 @@ LQFP64 pinout</description>
 <text x="-3.048" y="-2.794" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="5.08" y="-2.794" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
 </symbol>
+<symbol name="CRYSTAL4">
+<description>Crystal</description>
+<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="HOT@1" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="GND@2" x="10.16" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="HOT@3" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="GND@4" x="10.16" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<text x="-7.366" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.366" y="-7.366" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ABS07">
@@ -1328,27 +1345,6 @@ http://spec_sheets.e-switch.com/specs/P420000.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRYSTAL-CX-4025">
-<description>CX-4025S
-
-datasheet:http://www.datasheetarchive.com/dlmain/Datasheets-16/DSA-312893.pdf</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CX-4025">
-<connects>
-<connect gate="G$1" pin="GND@2" pad="P$2"/>
-<connect gate="G$1" pin="GND@4" pad="P$4"/>
-<connect gate="G$1" pin="HOT@1" pad="P$1"/>
-<connect gate="G$1" pin="HOT@3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1612,6 +1608,27 @@ LQFP64 pinout</description>
 <device name="" package="TAP">
 <connects>
 <connect gate="G$1" pin="TAP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL-CX-4025">
+<description>CX-4025S
+
+datasheet:http://www.datasheetarchive.com/dlmain/Datasheets-16/DSA-312893.pdf</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CX-4025">
+<connects>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@4" pad="P$4"/>
+<connect gate="G$1" pin="HOT@1" pad="P$1"/>
+<connect gate="G$1" pin="HOT@3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12221,7 +12238,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="U$2" library="openmotestm" deviceset="AN2051" device=""/>
 <part name="U$4" library="openmotestm" deviceset="BALUN" device=""/>
 <part name="U$5" library="openmotestm" deviceset="BUTTON" device=""/>
-<part name="U$6" library="openmotestm" deviceset="CRYSTAL-CX-4025" device=""/>
 <part name="U$8" library="openmotestm" deviceset="XBEE-1" device="B1"/>
 <part name="FRAME2" library="SparkFun-Retired" deviceset="FRAME-A3" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -12292,20 +12308,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="U$7" library="openmotestm" deviceset="STM32F103X" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="U$10" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$11" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$12" library="openmotestm" deviceset="TAP" device=""/>
 <part name="U$9" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$13" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$14" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$15" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$16" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$17" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$18" library="openmotestm" deviceset="TAP" device=""/>
 <part name="U$19" library="openmotestm" deviceset="TAP" device=""/>
 <part name="U$20" library="openmotestm" deviceset="TAP" device=""/>
 <part name="U$21" library="openmotestm" deviceset="TAP" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M06" device="SMD_MALE" value="JTAG-CONNECTER"/>
+<part name="U$6" library="openmotestm" deviceset="CRYSTAL-CX-4025" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12316,7 +12324,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="U$2" gate="G$1" x="81.28" y="114.3"/>
 <instance part="U$4" gate="G$1" x="106.68" y="27.94"/>
 <instance part="U$5" gate="G$1" x="-144.78" y="38.1" rot="R90"/>
-<instance part="U$6" gate="G$1" x="185.42" y="-53.34" rot="R180"/>
 <instance part="U$8" gate="G$1" x="-12.7" y="-83.82"/>
 <instance part="FRAME2" gate="G$1" x="-185.42" y="-119.38"/>
 <instance part="SUPPLY1" gate="G$1" x="-170.18" y="88.9"/>
@@ -12387,20 +12394,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="U$7" gate="G$1" x="-55.88" y="43.18"/>
 <instance part="GND20" gate="1" x="-134.62" y="25.4" rot="R270"/>
 <instance part="SUPPLY5" gate="G$1" x="-134.62" y="20.32" rot="R180"/>
-<instance part="U$10" gate="G$1" x="-58.42" y="124.46"/>
-<instance part="U$11" gate="G$1" x="5.08" y="132.08" rot="R270"/>
-<instance part="U$12" gate="G$1" x="5.08" y="119.38" rot="R270"/>
 <instance part="U$9" gate="G$1" x="-124.46" y="99.06"/>
-<instance part="U$13" gate="G$1" x="43.18" y="68.58"/>
-<instance part="U$14" gate="G$1" x="55.88" y="68.58"/>
-<instance part="U$15" gate="G$1" x="30.48" y="45.72" rot="R270"/>
-<instance part="U$16" gate="G$1" x="43.18" y="33.02"/>
-<instance part="U$17" gate="G$1" x="53.34" y="33.02"/>
-<instance part="U$18" gate="G$1" x="-93.98" y="-45.72" rot="R180"/>
 <instance part="U$19" gate="G$1" x="-149.86" y="-7.62" rot="R180"/>
 <instance part="U$20" gate="G$1" x="-139.7" y="-7.62" rot="R180"/>
 <instance part="U$21" gate="G$1" x="-129.54" y="-7.62" rot="R180"/>
 <instance part="JP2" gate="G$1" x="-165.1" y="116.84"/>
+<instance part="U$6" gate="G$1" x="185.42" y="-53.34" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12536,7 +12535,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$3" gate="G$1" pin="DVSS@16"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="GND@2"/>
 <wire x1="175.26" y1="-55.88" x2="172.72" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="-55.88" x2="172.72" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="-68.58" x2="167.64" y2="-68.58" width="0.1524" layer="91"/>
@@ -12549,10 +12547,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <junction x="157.48" y="-68.58"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <junction x="144.78" y="-68.58"/>
-<pinref part="U$6" gate="G$1" pin="GND@4"/>
 <wire x1="175.26" y1="-50.8" x2="167.64" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-50.8" x2="167.64" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="167.64" y="-68.58"/>
+<pinref part="U$6" gate="G$1" pin="GND@2"/>
+<pinref part="U$6" gate="G$1" pin="GND@4"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="AVSS@27"/>
@@ -12851,9 +12850,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$7" gate="G$1" pin="SPI2_SCK"/>
 </segment>
 <segment>
+<pinref part="U$3" gate="G$1" pin="SCLK"/>
 <wire x1="101.6" y1="-63.5" x2="101.6" y2="-78.74" width="0.1524" layer="91"/>
 <label x="101.6" y="-68.58" size="1.778" layer="95" rot="R270"/>
-<pinref part="U$3" gate="G$1" pin="SCLK"/>
 </segment>
 </net>
 <net name="RF_/SEL" class="0">
@@ -13018,11 +13017,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </net>
 <net name="PD2" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="CTS"/>
-<wire x1="7.62" y1="-93.98" x2="17.78" y2="-93.98" width="0.1524" layer="91"/>
-<label x="10.16" y="-93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="-43.18" y1="106.68" x2="-43.18" y2="121.92" width="0.1524" layer="91"/>
 <label x="-43.18" y="111.76" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$7" gate="G$1" pin="PD2"/>
@@ -13035,11 +13029,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="10.16" y="-91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-38.1" y1="106.68" x2="-38.1" y2="132.08" width="0.1524" layer="91"/>
-<label x="-38.1" y="111.76" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$7" gate="G$1" pin="PC12"/>
-<pinref part="U$11" gate="G$1" pin="TAP"/>
-<wire x1="-38.1" y1="132.08" x2="2.54" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="106.68" x2="-38.1" y2="121.92" width="0.1524" layer="91"/>
+<label x="-38.1" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -13062,11 +13054,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </segment>
 </net>
 <net name="PC1" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="RTS"/>
-<wire x1="7.62" y1="-83.82" x2="17.78" y2="-83.82" width="0.1524" layer="91"/>
-<label x="10.16" y="-83.82" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="-127" y1="40.64" x2="-119.38" y2="40.64" width="0.1524" layer="91"/>
 <label x="-127" y="40.64" size="1.778" layer="95"/>
@@ -13127,22 +13114,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="-83.82" y="106.68" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$7" gate="G$1" pin="PB9"/>
 </segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-129.54" y1="-38.1" x2="-129.54" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-129.54" y="-30.48" size="1.778" layer="95" rot="R270"/>
-</segment>
 </net>
 <net name="PB8" class="0">
 <segment>
 <wire x1="-78.74" y1="111.76" x2="-78.74" y2="106.68" width="0.1524" layer="91"/>
 <label x="-78.74" y="106.68" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$7" gate="G$1" pin="PB8"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-119.38" y1="-38.1" x2="-119.38" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-119.38" y="-30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="PC2" class="0">
@@ -13151,22 +13128,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="-127" y="35.56" size="1.778" layer="95"/>
 <pinref part="U$7" gate="G$1" pin="PC2/ADC123_IN12"/>
 </segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-139.7" y1="-38.1" x2="-139.7" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-139.7" y="-30.48" size="1.778" layer="95" rot="R270"/>
-</segment>
 </net>
 <net name="PC3" class="0">
 <segment>
 <wire x1="-119.38" y1="30.48" x2="-127" y2="30.48" width="0.1524" layer="91"/>
 <label x="-127" y="30.48" size="1.778" layer="95"/>
 <pinref part="U$7" gate="G$1" pin="PC3/ADC123_IN13"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="-149.86" y1="-38.1" x2="-149.86" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-149.86" y="-30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -13221,10 +13188,10 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$3" gate="G$1" pin="XTAL2"/>
 <wire x1="142.24" y1="-48.26" x2="157.48" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-48.26" x2="157.48" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="HOT@1"/>
 <wire x1="157.48" y1="-58.42" x2="175.26" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <junction x="157.48" y="-58.42"/>
+<pinref part="U$6" gate="G$1" pin="HOT@1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -13233,11 +13200,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="142.24" y1="-43.18" x2="144.78" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-43.18" x2="162.56" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="-43.18" x2="162.56" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="HOT@3"/>
 <wire x1="162.56" y1="-53.34" x2="175.26" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="-58.42" x2="144.78" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="144.78" y="-43.18"/>
+<pinref part="U$6" gate="G$1" pin="HOT@3"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -13322,72 +13289,40 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$9" gate="G$1" pin="TAP"/>
 </segment>
 </net>
-<net name="PB5" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="PB5"/>
-<wire x1="-58.42" y1="106.68" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="-58.42" y="111.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$10" gate="G$1" pin="TAP"/>
-</segment>
-</net>
-<net name="PC11" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="PC11/UART_RX"/>
-<wire x1="-33.02" y1="106.68" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
-<label x="-33.02" y="111.76" size="1.778" layer="95" rot="R90"/>
-<wire x1="-33.02" y1="129.54" x2="-7.62" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="129.54" x2="-7.62" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="TAP"/>
-<wire x1="-7.62" y1="119.38" x2="2.54" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PC10" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PC10/UART4_TX"/>
 <wire x1="-27.94" y1="121.92" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="-27.94" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
-</net>
-<net name="PA12" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="PA12/USART1_RTS"/>
-<wire x1="7.62" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="17.78" y="66.04" size="1.778" layer="95"/>
-<pinref part="U$13" gate="G$1" pin="TAP"/>
-</segment>
-</net>
-<net name="PA11" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="PA11/USART1_CTS"/>
-<wire x1="7.62" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
-<label x="17.78" y="60.96" size="1.778" layer="95"/>
-<pinref part="U$14" gate="G$1" pin="TAP"/>
-<wire x1="55.88" y1="60.96" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PA8" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="PA8/USART_CK"/>
-<wire x1="7.62" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="TAP"/>
-<label x="17.78" y="45.72" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-129.54" y1="-38.1" x2="-129.54" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-129.54" y="-30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="PC7" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PC7/TIM8_CH2"/>
-<wire x1="7.62" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="30.48" size="1.778" layer="95"/>
-<pinref part="U$16" gate="G$1" pin="TAP"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-139.7" y1="-38.1" x2="-139.7" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-139.7" y="-30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="PC6" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PC6/TIM8_CH1"/>
-<wire x1="7.62" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="17.78" y="25.4" size="1.778" layer="95"/>
-<pinref part="U$17" gate="G$1" pin="TAP"/>
-<wire x1="53.34" y1="25.4" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-149.86" y1="-38.1" x2="-149.86" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-149.86" y="-30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="PA3" class="0">
@@ -13395,7 +13330,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$7" gate="G$1" pin="PA3"/>
 <label x="-93.98" y="-30.48" size="1.778" layer="95" rot="R90"/>
 <wire x1="-93.98" y1="-20.32" x2="-93.98" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="TAP"/>
 </segment>
 </net>
 <net name="PA0" class="0">
@@ -13423,6 +13357,49 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$19" gate="G$1" pin="TAP"/>
 <wire x1="-149.86" y1="-5.08" x2="-149.86" y2="5.08" width="0.1524" layer="91"/>
 <label x="-127" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA12" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="PA12/USART1_RTS"/>
+<wire x1="7.62" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="17.78" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="RTS"/>
+<wire x1="7.62" y1="-83.82" x2="17.78" y2="-83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="-83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA11" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="PA11/USART1_CTS"/>
+<wire x1="7.62" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="17.78" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="CTS"/>
+<wire x1="7.62" y1="-93.98" x2="17.78" y2="-93.98" width="0.1524" layer="91"/>
+<label x="10.16" y="-93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA8" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="PA8/USART_CK"/>
+<wire x1="7.62" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<label x="17.78" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PC11" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="PC11/UART_RX"/>
+<wire x1="-33.02" y1="106.68" x2="-33.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="-33.02" y="111.76" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-119.38" y1="-38.1" x2="-119.38" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-119.38" y="-30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>
