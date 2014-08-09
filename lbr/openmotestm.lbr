@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1886,6 +1886,118 @@ Source: http://www.allegromicro.com/en/Products/Packaging/pkgso2.pdf</descriptio
 <text x="-6.8" y="-2" size="1.27" layer="21">-</text>
 <text x="-4.7" y="-5.3" size="1.27" layer="21">+</text>
 </package>
+<package name="QFN-20">
+<description>RF6505</description>
+<smd name="P$3" x="-1.5" y="0" dx="0.4" dy="0.3" layer="1"/>
+<smd name="P$2" x="-1.5" y="0.5" dx="0.4" dy="0.3" layer="1"/>
+<smd name="P$1" x="-1.5" y="1" dx="0.4" dy="0.3" layer="1"/>
+<smd name="P$4" x="-1.5" y="-0.5" dx="0.4" dy="0.3" layer="1"/>
+<smd name="P$5" x="-1.5" y="-1" dx="0.4" dy="0.3" layer="1"/>
+<smd name="P$8" x="0" y="-1.5" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="-0.5" y="-1.5" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$6" x="-1" y="-1.5" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="0.5" y="-1.5" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="1" y="-1.5" dx="0.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$13" x="1.5" y="0" dx="0.4" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$12" x="1.5" y="-0.5" dx="0.4" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$11" x="1.5" y="-1" dx="0.4" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$14" x="1.5" y="0.5" dx="0.4" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$15" x="1.5" y="1" dx="0.4" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$18" x="0" y="1.5" dx="0.4" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$17" x="0.5" y="1.5" dx="0.4" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$16" x="1" y="1.5" dx="0.4" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$19" x="-0.5" y="1.5" dx="0.4" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$20" x="-1" y="1.5" dx="0.4" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$21" x="0" y="0" dx="2.2" dy="2.2" layer="1"/>
+<text x="-1.27" y="1.905" size="0.6096" layer="21">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="21">&gt;Value</text>
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="48"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.127" layer="48"/>
+<wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0.127" layer="48"/>
+<wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0.127" layer="48"/>
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="21"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0.127" layer="21"/>
+<rectangle x1="-1.524" y1="1.27" x2="-1.27" y2="1.524" layer="21"/>
+</package>
+<package name="C0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="R0402">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="734120110_SD">
+<description>734120110_sd</description>
+<wire x1="-1.3" y1="1.3" x2="1.3" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1.3" x2="1.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-1.3" x2="-1.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="1.3" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="1.5" dx="1" dy="1" layer="1"/>
+<smd name="P$2" x="0" y="-1.5" dx="1" dy="1" layer="1"/>
+<smd name="P$3" x="-1.475" y="0" dx="1.05" dy="2.2" layer="1"/>
+<smd name="P$4" x="1.475" y="0" dx="1.05" dy="2.2" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STM32F103X">
@@ -2225,6 +2337,49 @@ LQFP64 pinout</description>
 <text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="+" x="0" y="5.08" visible="off" length="point" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="point" rot="R270"/>
+</symbol>
+<symbol name="RF6505">
+<description>RF6505:
+Package Style: QFN, 20-Pin, 3.5mmx3.5mmx0.55mm</description>
+<wire x1="-12.7" y1="25.4" x2="27.94" y2="25.4" width="0.254" layer="94"/>
+<wire x1="27.94" y1="25.4" x2="27.94" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
+<pin name="RFN" x="-17.78" y="15.24" length="middle"/>
+<pin name="GND@2" x="-17.78" y="10.16" length="middle"/>
+<pin name="RFP" x="-17.78" y="5.08" length="middle"/>
+<pin name="VCC" x="-17.78" y="0" length="middle"/>
+<pin name="TX_EN" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PDET" x="-2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="GND@7" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="VCC1/2" x="7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="C/I" x="12.7" y="-20.32" length="middle" rot="R90"/>
+<pin name="VCC3" x="17.78" y="-20.32" length="middle" rot="R90"/>
+<pin name="NC" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@12" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="ANT1" x="33.02" y="5.08" length="middle" rot="R180"/>
+<pin name="GND@14" x="33.02" y="10.16" length="middle" rot="R180"/>
+<pin name="ANT2" x="33.02" y="15.24" length="middle" rot="R180"/>
+<pin name="ANT2_EN" x="17.78" y="30.48" length="middle" rot="R270"/>
+<pin name="ANT1_EN" x="12.7" y="30.48" length="middle" rot="R270"/>
+<pin name="VCCLNA" x="7.62" y="30.48" length="middle" rot="R270"/>
+<pin name="LNA_EN" x="2.54" y="30.48" length="middle" rot="R270"/>
+<pin name="RX_EN" x="-2.54" y="30.48" length="middle" rot="R270"/>
+<text x="0.508" y="7.62" size="2.54" layer="95">&gt;Name</text>
+<text x="0" y="0" size="2.54" layer="95">&gt;Value</text>
+</symbol>
+<symbol name="734120110_SD">
+<description>734120110_sd</description>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="IN" x="-15.24" y="0" length="middle"/>
+<pin name="GND@2" x="-2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="GND@3" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="GND@4" x="7.62" y="-10.16" length="middle" rot="R90"/>
+<text x="-10.16" y="7.62" size="2.54" layer="95">&gt;Name</text>
+<text x="-10.16" y="-15.24" size="2.54" layer="95">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2735,6 +2890,62 @@ Physical dimension and wire connections for this powerful vibration motor. Motor
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RF6505">
+<description>RF6050
+
+3.5mm*3.5mm QFN 20</description>
+<gates>
+<gate name="G$1" symbol="RF6505" x="-5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="QFN-20">
+<connects>
+<connect gate="G$1" pin="ANT1" pad="P$13"/>
+<connect gate="G$1" pin="ANT1_EN" pad="P$17"/>
+<connect gate="G$1" pin="ANT2" pad="P$15"/>
+<connect gate="G$1" pin="ANT2_EN" pad="P$16"/>
+<connect gate="G$1" pin="C/I" pad="P$9"/>
+<connect gate="G$1" pin="GND@12" pad="P$12"/>
+<connect gate="G$1" pin="GND@14" pad="P$14"/>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@7" pad="P$7"/>
+<connect gate="G$1" pin="LNA_EN" pad="P$19"/>
+<connect gate="G$1" pin="NC" pad="P$11"/>
+<connect gate="G$1" pin="PDET" pad="P$6"/>
+<connect gate="G$1" pin="RFN" pad="P$1"/>
+<connect gate="G$1" pin="RFP" pad="P$3"/>
+<connect gate="G$1" pin="RX_EN" pad="P$20"/>
+<connect gate="G$1" pin="TX_EN" pad="P$5"/>
+<connect gate="G$1" pin="VCC" pad="P$4"/>
+<connect gate="G$1" pin="VCC1/2" pad="P$8"/>
+<connect gate="G$1" pin="VCC3" pad="P$10"/>
+<connect gate="G$1" pin="VCCLNA" pad="P$18"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="734120110_SD">
+<description>734120110_sd</description>
+<gates>
+<gate name="G$1" symbol="734120110_SD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="734120110_SD">
+<connects>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@3" pad="P$3"/>
+<connect gate="G$1" pin="GND@4" pad="P$4"/>
+<connect gate="G$1" pin="IN" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
