@@ -9984,11 +9984,20 @@ Source: www.kingbright.com</description>
 <label x="-20.32" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PC8" class="0">
+<net name="MOTOR/PC8" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="DIO12"/>
 <wire x1="109.22" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="93.98" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="GATE"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-38.1" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-38.1" x2="73.66" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-38.1" x2="81.28" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="73.66" y="-38.1"/>
+<label x="66.04" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -10034,11 +10043,20 @@ Source: www.kingbright.com</description>
 <label x="-81.28" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PC9" class="0">
+<net name="MOTOR/PC9" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="DTR"/>
 <wire x1="109.22" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="93.98" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="GATE"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="-38.1" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="30.48" y="-38.1"/>
+<label x="22.86" y="-38.1" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-38.1" x2="22.86" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-38.1" x2="38.1" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC5" class="0">
@@ -10048,43 +10066,11 @@ Source: www.kingbright.com</description>
 <label x="152.4" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOTOR/PA7" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="DIO1"/>
-<wire x1="149.86" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
-<label x="152.4" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="GATE"/>
-<wire x1="66.04" y1="-38.1" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-38.1" x2="81.28" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-40.64" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="73.66" y="-38.1"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<label x="66.04" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PA5" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="DIO2"/>
 <wire x1="149.86" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="152.4" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MOTOR/PA6" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="DIO3"/>
-<wire x1="149.86" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
-<label x="152.4" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="GATE"/>
-<wire x1="22.86" y1="-38.1" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-38.1" x2="38.1" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-40.64" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="30.48" y="-38.1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<label x="22.86" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT/PC0" class="0">
@@ -10216,6 +10202,20 @@ Source: www.kingbright.com</description>
 <wire x1="10.16" y1="83.82" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PA7" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="DIO1"/>
+<wire x1="149.86" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="152.4" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PA6" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="DIO3"/>
+<wire x1="149.86" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="152.4" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

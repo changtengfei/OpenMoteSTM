@@ -2676,8 +2676,21 @@ design rules under a new name.</description>
 <wire x1="-17.526" y1="5.08" x2="-17.526" y2="-0.015" width="0.254" layer="1"/>
 <wire x1="-17.526" y1="-0.015" x2="-20.066" y2="-2.555" width="0.254" layer="1"/>
 </signal>
-<signal name="PC8">
+<signal name="MOTOR/PC8">
 <contactref element="U$11" pad="4"/>
+<contactref element="U$8" pad="1"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-10.516" y1="6.38" x2="-10.516" y2="5.436" width="0.254" layer="1"/>
+<wire x1="-10.516" y1="5.436" x2="-9.906" y2="4.826" width="0.254" layer="1"/>
+<via x="-9.906" y="4.826" extent="1-16" drill="0.254"/>
+<wire x1="-9.906" y1="4.826" x2="-1.27" y2="4.826" width="0.254" layer="16"/>
+<wire x1="-1.27" y1="4.826" x2="-0.508" y2="4.064" width="0.254" layer="16"/>
+<wire x1="-0.508" y1="4.064" x2="14.732" y2="4.064" width="0.254" layer="16"/>
+<wire x1="14.732" y1="4.064" x2="15.494" y2="3.302" width="0.254" layer="16"/>
+<via x="15.494" y="3.302" extent="1-16" drill="0.254"/>
+<wire x1="15.494" y1="3.302" x2="15.494" y2="1.92" width="0.254" layer="1"/>
+<wire x1="19.274" y1="2.37" x2="15.944" y2="2.37" width="0.254" layer="1"/>
+<wire x1="15.944" y1="2.37" x2="15.494" y2="1.92" width="0.254" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U$11" pad="5"/>
@@ -2714,41 +2727,24 @@ design rules under a new name.</description>
 <wire x1="-5.334" y1="-2.921" x2="-8.961" y2="-2.921" width="0.254" layer="1"/>
 <wire x1="-8.961" y1="-2.921" x2="-10.516" y2="-1.62" width="0.254" layer="1"/>
 </signal>
-<signal name="PC9">
+<signal name="MOTOR/PC9">
 <contactref element="U$11" pad="9"/>
+<contactref element="U$6" pad="1"/>
+<contactref element="R3" pad="2"/>
+<wire x1="-13.516" y1="-3.62" x2="-13.516" y2="-5.534" width="0.4064" layer="1"/>
+<wire x1="-13.516" y1="-5.534" x2="-5.08" y2="-13.97" width="0.4064" layer="1"/>
+<wire x1="-5.08" y1="-13.97" x2="-0.254" y2="-13.97" width="0.4064" layer="1"/>
+<wire x1="-0.254" y1="-13.97" x2="1.524" y2="-15.748" width="0.4064" layer="1"/>
+<wire x1="1.524" y1="-15.748" x2="1.524" y2="-17.765" width="0.4064" layer="1"/>
+<wire x1="1.524" y1="-17.765" x2="1.539" y2="-17.78" width="0.4064" layer="1"/>
+<wire x1="1.989" y1="-20.925" x2="1.989" y2="-18.23" width="0.4064" layer="1"/>
+<wire x1="1.989" y1="-18.23" x2="1.539" y2="-17.78" width="0.4064" layer="1"/>
 </signal>
 <signal name="PC5">
 <contactref element="U$11" pad="20"/>
 </signal>
-<signal name="MOTOR/PA7">
-<contactref element="U$11" pad="19"/>
-<contactref element="U$8" pad="1"/>
-<contactref element="R4" pad="2"/>
-<wire x1="11.484" y1="10.38" x2="12.734" y2="10.38" width="0.254" layer="1"/>
-<wire x1="12.734" y1="10.38" x2="15.494" y2="7.62" width="0.254" layer="1"/>
-<wire x1="15.494" y1="7.62" x2="15.494" y2="1.92" width="0.254" layer="1"/>
-<wire x1="15.494" y1="1.92" x2="18.824" y2="1.92" width="0.254" layer="1"/>
-<wire x1="18.824" y1="1.92" x2="19.274" y2="2.37" width="0.254" layer="1"/>
-</signal>
 <signal name="PA5">
 <contactref element="U$11" pad="18"/>
-</signal>
-<signal name="MOTOR/PA6">
-<contactref element="U$11" pad="17"/>
-<contactref element="U$6" pad="1"/>
-<contactref element="R3" pad="2"/>
-<wire x1="1.989" y1="-20.925" x2="1.989" y2="-18.23" width="0.254" layer="1"/>
-<wire x1="1.989" y1="-18.23" x2="1.539" y2="-17.78" width="0.254" layer="1"/>
-<wire x1="11.484" y1="6.38" x2="11.654" y2="6.38" width="0.254" layer="1"/>
-<wire x1="11.654" y1="6.38" x2="11.684" y2="6.35" width="0.254" layer="1"/>
-<wire x1="11.684" y1="6.35" x2="6.604" y2="6.35" width="0.254" layer="1"/>
-<wire x1="6.604" y1="6.35" x2="5.334" y2="5.08" width="0.254" layer="1"/>
-<via x="5.334" y="5.08" extent="1-16" drill="0.254"/>
-<wire x1="5.334" y1="5.08" x2="5.334" y2="-8.89" width="0.254" layer="16"/>
-<wire x1="5.334" y1="-8.89" x2="1.524" y2="-12.7" width="0.254" layer="16"/>
-<via x="1.524" y="-12.7" extent="1-16" drill="0.254"/>
-<wire x1="1.524" y1="-12.7" x2="1.524" y2="-17.765" width="0.254" layer="1"/>
-<wire x1="1.524" y1="-17.765" x2="1.539" y2="-17.78" width="0.254" layer="1"/>
 </signal>
 <signal name="INT/PC0">
 <contactref element="U$11" pad="15"/>
@@ -2843,6 +2839,12 @@ design rules under a new name.</description>
 <wire x1="4.814" y1="-10.402" x2="5.334" y2="-10.922" width="0.254" layer="1"/>
 <wire x1="5.334" y1="-10.922" x2="11.572" y2="-10.922" width="0.254" layer="1"/>
 <wire x1="11.572" y1="-10.922" x2="11.684" y2="-10.81" width="0.254" layer="1"/>
+</signal>
+<signal name="PA7">
+<contactref element="U$11" pad="19"/>
+</signal>
+<signal name="PA6">
+<contactref element="U$11" pad="17"/>
 </signal>
 </signals>
 </board>
