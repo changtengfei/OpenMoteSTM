@@ -11826,6 +11826,8 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <wire x1="-93.98" y1="124.46" x2="-93.98" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-93.98" y="124.46"/>
 <pinref part="U$7" gate="G$1" pin="VDD3"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="129.54" x2="-73.66" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
@@ -12561,10 +12563,12 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <segment>
 <pinref part="X1" gate="G$1" pin="10"/>
 <wire x1="-167.64" y1="127" x2="-152.4" y2="127" width="0.1524" layer="91"/>
+<label x="-167.64" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="RESET"/>
 <wire x1="-43.18" y1="-83.82" x2="-33.02" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-43.18" y="-83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="!RESET"/>
@@ -12575,6 +12579,7 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <wire x1="-162.56" y1="40.64" x2="-162.56" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="50.8" x2="-142.24" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-142.24" y="50.8"/>
+<label x="-134.62" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
