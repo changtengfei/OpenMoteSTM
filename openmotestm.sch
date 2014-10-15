@@ -11415,9 +11415,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0402" value="10pF"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0402" value="10pF"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="5K"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="5K"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="5K"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
@@ -11501,11 +11498,8 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <instance part="GND1" gate="1" x="-170.18" y="66.04"/>
 <instance part="C1" gate="G$1" x="-154.94" y="78.74" rot="R90"/>
 <instance part="C2" gate="G$1" x="-154.94" y="58.42" rot="R90"/>
-<instance part="R1" gate="G$1" x="-73.66" y="114.3" rot="R90"/>
-<instance part="R2" gate="G$1" x="-81.28" y="119.38" rot="R180"/>
-<instance part="R3" gate="G$1" x="-73.66" y="124.46" rot="R270"/>
 <instance part="SUPPLY2" gate="G$1" x="-93.98" y="124.46" rot="R90"/>
-<instance part="GND2" gate="1" x="-88.9" y="121.92" rot="R180"/>
+<instance part="GND2" gate="1" x="-88.9" y="124.46" rot="R180"/>
 <instance part="C3" gate="G$1" x="-162.56" y="35.56" rot="R180"/>
 <instance part="GND3" gate="1" x="-162.56" y="22.86"/>
 <instance part="GND4" gate="1" x="-111.76" y="-99.06"/>
@@ -11612,11 +11606,8 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <junction x="-162.56" y="68.58"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="119.38" x2="-88.9" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-88.9" y1="106.68" x2="-88.9" y2="119.38" width="0.1524" layer="91"/>
-<junction x="-88.9" y="119.38"/>
+<wire x1="-88.9" y1="106.68" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="VSS3"/>
 </segment>
 <segment>
@@ -11822,12 +11813,8 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="-93.98" y1="129.54" x2="-93.98" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="124.46" x2="-93.98" y2="106.68" width="0.1524" layer="91"/>
-<junction x="-93.98" y="124.46"/>
 <pinref part="U$7" gate="G$1" pin="VDD3"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-93.98" y1="129.54" x2="-73.66" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
@@ -11898,15 +11885,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="116.84" x2="-127" y2="116.84" width="0.1524" layer="91"/>
 <label x="-132.08" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="-73.66" y="119.38"/>
-<wire x1="-73.66" y1="119.38" x2="-76.2" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT1" class="0">
@@ -12136,11 +12114,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 </segment>
 </net>
 <net name="PC9" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="DTR"/>
-<wire x1="-43.18" y1="-93.98" x2="-33.02" y2="-93.98" width="0.1524" layer="91"/>
-<label x="-43.18" y="-93.98" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="7.62" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <label x="17.78" y="40.64" size="1.778" layer="95"/>
@@ -12514,23 +12487,11 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <label x="-38.1" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="U$7" gate="G$1" pin="BOOT0"/>
-<wire x1="-73.66" y1="109.22" x2="-73.66" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PA12" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="PA12/USART1_RTS"/>
 <wire x1="7.62" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="17.78" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="RTS"/>
-<wire x1="7.62" y1="-83.82" x2="17.78" y2="-83.82" width="0.1524" layer="91"/>
-<label x="10.16" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -12581,12 +12542,29 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <junction x="-142.24" y="50.8"/>
 <label x="-134.62" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="DTR"/>
+<wire x1="-43.18" y1="-93.98" x2="-33.02" y2="-93.98" width="0.1524" layer="91"/>
+<label x="-43.18" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="CLKM"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="-63.5" x2="91.44" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BOOT0" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="RTS"/>
+<wire x1="7.62" y1="-83.82" x2="17.78" y2="-83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="-83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="BOOT0"/>
+<wire x1="-73.66" y1="106.68" x2="-73.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="-73.66" y="106.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
