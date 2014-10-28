@@ -1,29 +1,49 @@
-Partlist exported from C:/openwsn/OpenMoteSTM/openmotestm.sch at 2014/10/20 11:20:52
+Partlist exported from C:/openwsn/OpenMoteSTM/openmotestm.sch at 2014/10/28 17:13:25
 
-Qty Value              Device             Package            Parts                  Description                                                 
-                                
-                                 
-2   100pF              C-EUC0402          C0402              C21, C23               CAPACITOR, European symbol                                  
-                                 
-                          
-
-                                 
-5   1uF                C-EUC0603          C0603              C9, C12, C13, C16, C17 CAPACITOR, European symbol                                  
-                                
-                               
-4   510                R-EU_R0402         R0402              R5, R6, R7, R8         RESISTOR, European symbol                                   
-                                  
-1   ABS07              ABS07              ABS07              U$1                    ABS07                                                       
-1   AN2051             AN2051             AN2051             U$2                    AN2051 Multilayer Chip Antenna                              
-1   AT86RF231          AT86RF231          QFN32              U$3                    AT86RF231                                                   
-1   BALUN              BALUN              BALUN              U$4                    Chip-Balun WE-BAL                                           
-1   BLUE               LED-BLUE0603       LED-0603           D2                     Blue LEDs for production use                                
-1   BUTTON             BUTTON             BUTTON             U$5                    TL1015AF160QG                                               
-1   CRYSTAL-CX-4025    CRYSTAL-CX-4025    CX-4025            U$6                    CX-4025S                                                    
-1   GREEN              LED-GREEN0603      LED-0603           D3                     Various green LEDs                                          
-1   PHB_1MM27_2X05_SNS PHB_1MM27_2X05_SNS PHB_1MM27_2X05_SNS X1                     Pin Header Box-Type, 1.27mm/0.5"/50mil Pitch, 2x05 Circuits 
-1   RED                LED-RED0603        LED-0603           D4                     Assorted Red LEDs                                           
-1   STM32F103X         STM32F103X         LQFP-ST-64-2       U$7                    STM32F103xC and STM32F103xE performance line                
-4   TAP                TAP                TAP                U$9, U$19, U$20, U$21  tap pin for the pin which is not used.                      
-1   XBEE-1B1           XBEE-1B1           XBEE-1             U$8                    Xbee module footprints                                      
-1   YELLOW             LED-YELLOW0603     LED-0603           D1                     Yellow SMD LEDs                                             
+Part Value              Device             Package            Description                                                 PROD_ID   VALUE
+C1   10pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C2   10pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C3   100nF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C4   100nF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C5   100nF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C6   100nF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C7   100nF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C8   100nF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C9   1uF                C-EUC0603          C0603              CAPACITOR, European symbol                                                 
+C10  10uF               C-EUC0603          C0603              CAPACITOR, European symbol                                                 
+C11  2.2pF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C12  1uF                C-EUC0603          C0603              CAPACITOR, European symbol                                                 
+C13  1uF                C-EUC0603          C0603              CAPACITOR, European symbol                                                 
+C14  12pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C15  12pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C16  1uF                C-EUC0603          C0603              CAPACITOR, European symbol                                                 
+C17  1uF                C-EUC0603          C0603              CAPACITOR, European symbol                                                 
+C18  22pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C19  22pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C20  0.5pF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C21  100pF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C22  0.5pF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+C23  100pF              C-EUC0402          C0402              CAPACITOR, European symbol                                                 
+D1   YELLOW             LED-YELLOW0603     LED-0603           Yellow SMD LEDs                                             DIO-09003      
+D2   BLUE               LED-BLUE0603       LED-0603           Blue LEDs for production use                                DIO-08575 BLUE 
+D3   GREEN              LED-GREEN0603      LED-0603           Various green LEDs                                          DIO-00821 GREEN
+D4   RED                LED-RED0603        LED-0603           Assorted Red LEDs                                           DIO-00819 RED  
+R4   10K                R-EU_R0402         R0402              RESISTOR, European symbol                                                  
+R5   510                R-EU_R0402         R0402              RESISTOR, European symbol                                                  
+R6   510                R-EU_R0402         R0402              RESISTOR, European symbol                                                  
+R7   510                R-EU_R0402         R0402              RESISTOR, European symbol                                                  
+R8   510                R-EU_R0402         R0402              RESISTOR, European symbol                                                  
+R9   680                R-EU_R0402         R0402              RESISTOR, European symbol                                                  
+U$1  ABS07              ABS07              ABS07              ABS07                                                                      
+U$2  AN2051             AN2051             AN2051             AN2051 Multilayer Chip Antenna                                             
+U$3  AT86RF231          AT86RF231          QFN32              AT86RF231                                                                  
+U$4  BALUN              BALUN              BALUN              Chip-Balun WE-BAL                                                          
+U$5  BUTTON             BUTTON             BUTTON             TL1015AF160QG                                                              
+U$6  CRYSTAL-CX-4025    CRYSTAL-CX-4025    CX-4025            CX-4025S                                                                   
+U$7  STM32F103X         STM32F103X         LQFP-ST-64-2       STM32F103xC and STM32F103xE performance line                               
+U$8  XBEE-1B1           XBEE-1B1           XBEE-1             Xbee module footprints                                                     
+U$9  TAP                TAP                TAP                tap pin for the pin which is not used.                                     
+U$19 TAP                TAP                TAP                tap pin for the pin which is not used.                                     
+U$20 TAP                TAP                TAP                tap pin for the pin which is not used.                                     
+U$21 TAP                TAP                TAP                tap pin for the pin which is not used.                                     
+X1   PHB_1MM27_2X05_SNS PHB_1MM27_2X05_SNS PHB_1MM27_2X05_SNS Pin Header Box-Type, 1.27mm/0.5"/50mil Pitch, 2x05 Circuits                
