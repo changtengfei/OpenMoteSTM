@@ -1,4 +1,4 @@
-Partlist exported from C:/openwsn/OpenMoteSTM/openmotestm.sch at 2014/10/28 17:13:25
+Partlist exported from C:/openwsn/OpenMoteSTM/openmotestm.sch at 2014/11/10 16:30:37
 
 Part Value              Device             Package            Description                                                 PROD_ID   VALUE
 C1   10pF               C-EUC0402          C0402              CAPACITOR, European symbol                                                 
