@@ -1034,10 +1034,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/288945048AD7C7019_20_1_2
 <wire x1="2" y1="1.25" x2="2" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="2" y1="-1.25" x2="-2" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="-1.25" x2="-2" y2="1.25" width="0.127" layer="21"/>
-<smd name="P$1" x="-1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="P$2" x="-1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="P$4" x="1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="P$3" x="1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$4" x="-1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$1" x="-1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$3" x="1.5" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="P$2" x="1.5" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
 <circle x="-2.286" y="1.016" radius="0.254" width="0.127" layer="21"/>
 <text x="-2.032" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-2.032" y="-2.032" size="0.4064" layer="25">&gt;VALUE</text>
