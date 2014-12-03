@@ -1022,12 +1022,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/288945048AD7C7019_20_1_2
 <rectangle x1="-3.75" y1="5.375" x2="-2.75" y2="5.625" layer="51" rot="R270"/>
 <rectangle x1="-4.25" y1="5.375" x2="-3.25" y2="5.625" layer="51" rot="R270"/>
 </package>
-<package name="TAP">
-<description>TAP for the pin when not be used.</description>
-<smd name="P$1" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100"/>
-<text x="-0.635" y="0.635" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.27" size="0.4064" layer="25">&gt;VALUE</text>
-</package>
 <package name="CX-4025">
 <description>CX-4025  crystal SMD</description>
 <wire x1="-2" y1="1.25" x2="2" y2="1.25" width="0.127" layer="21"/>
@@ -1241,13 +1235,6 @@ LQFP64 pinout</description>
 <pin name="VDD3" x="-38.1" y="63.5" length="middle" direction="pwr" rot="R270"/>
 <text x="-15.24" y="27.94" size="6.4516" layer="95">&gt;Name</text>
 <text x="-15.24" y="-25.4" size="6.4516" layer="96">&gt;Value</text>
-</symbol>
-<symbol name="TAP">
-<description>tap pin</description>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<pin name="TAP" x="0" y="-2.54" length="middle" rot="R90"/>
-<text x="-3.048" y="-2.794" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-2.794" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
 </symbol>
 <symbol name="CRYSTAL4">
 <description>Crystal</description>
@@ -1580,22 +1567,6 @@ LQFP64 pinout</description>
 <connect gate="G$1" pin="VSS3" pad="63"/>
 <connect gate="G$1" pin="VSS4" pad="18"/>
 <connect gate="G$1" pin="VSSA" pad="12"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TAP">
-<description>tap pin for the pin which is not used.</description>
-<gates>
-<gate name="G$1" symbol="TAP" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TAP">
-<connects>
-<connect gate="G$1" pin="TAP" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11466,10 +11437,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="X1" library="_hhn_con_pinhead_box_1mm27" deviceset="PHB_1MM27_2X05_*" device="SNS"/>
-<part name="U$10" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$11" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$12" library="openmotestm" deviceset="TAP" device=""/>
-<part name="U$13" library="openmotestm" deviceset="TAP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11549,10 +11516,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <instance part="C9" gate="G$1" x="-73.66" y="-88.9"/>
 <instance part="C10" gate="G$1" x="-149.86" y="-88.9"/>
 <instance part="X1" gate="G$1" x="-144.78" y="121.92"/>
-<instance part="U$10" gate="G$1" x="43.18" y="27.94"/>
-<instance part="U$11" gate="G$1" x="58.42" y="27.94"/>
-<instance part="U$12" gate="G$1" x="43.18" y="5.08"/>
-<instance part="U$13" gate="G$1" x="58.42" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -11947,11 +11910,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <wire x1="7.62" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$10" gate="G$1" pin="TAP"/>
-<wire x1="43.18" y1="25.4" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<label x="43.18" y="17.78" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="RF_MISO" class="0">
 <segment>
@@ -11963,11 +11921,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <pinref part="U$7" gate="G$1" pin="SPI2_MISO"/>
 <wire x1="7.62" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 <label x="15.24" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$11" gate="G$1" pin="TAP"/>
-<wire x1="58.42" y1="25.4" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
-<label x="58.42" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RF_SCLK" class="0">
@@ -11981,11 +11934,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <wire x1="7.62" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <label x="15.24" y="10.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="TAP"/>
-<wire x1="43.18" y1="2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
-<label x="43.18" y="-2.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="RF_/SEL" class="0">
 <segment>
@@ -11997,11 +11945,6 @@ Lectureship dozent-rb: &amp;nbsp;&lt;a href="http://www.dozent-rb.de/" target="_
 <pinref part="U$3" gate="G$1" pin="!SEL"/>
 <wire x1="121.92" y1="-63.5" x2="121.92" y2="-78.74" width="0.1524" layer="91"/>
 <label x="121.92" y="-68.58" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="TAP"/>
-<wire x1="58.42" y1="2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
-<label x="58.42" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JTCK-SWCLK" class="0">
