@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8677,7 +8677,7 @@ http://spec_sheets.e-switch.com/specs/P420000.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MPU-6000" prefix="U">
-<description>MPU-6000 - I2C address is 0x68 with AD0 low and 0x69 with AD0 high.</description>
+<description>MPU-6000/6050 - I2C address is 0x68 with AD0 low and 0x69 with AD0 high.</description>
 <gates>
 <gate name="G$1" symbol="MPU-6000" x="0" y="0"/>
 </gates>

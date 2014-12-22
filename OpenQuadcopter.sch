@@ -5121,7 +5121,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="MPU-6000" prefix="U">
-<description>MPU-6000 - I2C address is 0x68 with AD0 low and 0x69 with AD0 high.</description>
+<description>MPU-6000/6050 - I2C address is 0x68 with AD0 low and 0x69 with AD0 high.</description>
 <gates>
 <gate name="G$1" symbol="MPU-6000" x="0" y="0"/>
 </gates>
@@ -13659,30 +13659,30 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </class>
 </classes>
 <parts>
-<part name="U1" library="openmotestm" deviceset="MPU-6000" device="QFN-24"/>
-<part name="U$1" library="openmotestm" deviceset="HMC5883L" device="SMD"/>
-<part name="U$2" library="openmotestm" deviceset="MOSFET" device=""/>
+<part name="U1" library="openmotestm" deviceset="MPU-6000" device="QFN-24" value="MPU-6050QFN-24"/>
+<part name="U$1" library="openmotestm" deviceset="HMC5883L" device="SMD" value="HMC5883L-SMD"/>
+<part name="U$2" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
 <part name="U$11" library="openmotestm" deviceset="XBEE-1" device="B3"/>
 <part name="U$12" library="openmotestm" deviceset="SWITCH_SPDT" device=""/>
 <part name="U$3" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="BAT54" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="U$4" library="openmotestm" deviceset="MOSFET" device=""/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="U$4" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
 <part name="U$5" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="BAT54" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="U$6" library="openmotestm" deviceset="MOSFET" device=""/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="U$6" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
 <part name="U$7" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="diode" deviceset="BAT54" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="U$8" library="openmotestm" deviceset="MOSFET" device=""/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="U$8" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
 <part name="U$9" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D4" library="diode" deviceset="BAT54" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0402"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM" value="2.54MM"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
@@ -13702,69 +13702,69 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="U$13" library="openmotestm" deviceset="BQ24075" device=""/>
 <part name="U$14" library="openmotestm" deviceset="CP2102" device=""/>
 <part name="JP2" library="openmotestm" deviceset="USB_MICROB_PLUG" device="CONN-11752" value="USB_MICROB"/>
-<part name="R8" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R9" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R10" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R11" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="C8" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="R8" library="openmotestm" deviceset="R-EU_" device="R0402" value="1.2K"/>
+<part name="R9" library="openmotestm" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R10" library="openmotestm" deviceset="R-EU_" device="R0402" value="1.2K"/>
+<part name="R11" library="openmotestm" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="SUPPLY1" library="openmotestm" deviceset="GND" device=""/>
-<part name="C10" library="openmotestm" deviceset="C-EU" device="C0402"/>
-<part name="C13" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="C10" library="openmotestm" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="SUPPLY2" library="openmotestm" deviceset="GND" device=""/>
 <part name="U$15" library="openmotestm" deviceset="TPS79301" device=""/>
-<part name="R12" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="C14" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="R12" library="openmotestm" deviceset="R-EU_" device="R0402" value="10R"/>
 <part name="SUPPLY3" library="openmotestm" deviceset="GND" device=""/>
-<part name="R13" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="C15" library="openmotestm" deviceset="C-EU" device="C0402"/>
-<part name="C16" library="openmotestm" deviceset="C-EU" device="C0402"/>
-<part name="C17" library="openmotestm" deviceset="C-EU" device="C0402"/>
-<part name="R14" library="openmotestm" deviceset="R-EU_" device="R0402"/>
+<part name="R13" library="openmotestm" deviceset="R-EU_" device="R0402" value="39K"/>
+<part name="C15" library="openmotestm" deviceset="C-EU" device="C0402" value="15pF"/>
+<part name="C17" library="openmotestm" deviceset="C-EU" device="C0402" value="10nF"/>
+<part name="R14" library="openmotestm" deviceset="R-EU_" device="R0402" value="30K"/>
 <part name="SUPPLY5" library="openmotestm" deviceset="AGND" device=""/>
 <part name="U$16" library="openmotestm" deviceset="TPS79301" device=""/>
-<part name="C18" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="C18" library="openmotestm" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="SUPPLY6" library="openmotestm" deviceset="GND" device=""/>
-<part name="R15" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R16" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="C19" library="openmotestm" deviceset="C-EU" device="C0402"/>
-<part name="C20" library="openmotestm" deviceset="C-EU" device="C0402"/>
-<part name="R17" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R18" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R19" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R20" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="C21" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="R15" library="openmotestm" deviceset="R-EU_" device="R0402" value="42.2K"/>
+<part name="R16" library="openmotestm" deviceset="R-EU_" device="R0402" value="30K"/>
+<part name="C19" library="openmotestm" deviceset="C-EU" device="C0402" value="10nF"/>
+<part name="C20" library="openmotestm" deviceset="C-EU" device="C0402" value="15pF"/>
+<part name="R17" library="openmotestm" deviceset="R-EU_" device="R0402" value="150K"/>
+<part name="R18" library="openmotestm" deviceset="R-EU_" device="R0402" value="300K"/>
+<part name="R19" library="openmotestm" deviceset="R-EU_" device="R0402" value="1K"/>
+<part name="R20" library="openmotestm" deviceset="R-EU_" device="R0402" value="1K"/>
 <part name="D6" library="openmotestm" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D7" library="openmotestm" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="SUPPLY8" library="openmotestm" deviceset="DGND" device=""/>
 <part name="SUPPLY9" library="openmotestm" deviceset="GND" device=""/>
-<part name="R21" library="openmotestm" deviceset="R-EU_" device="R0402"/>
+<part name="R21" library="openmotestm" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="U$17" library="openmotestm" deviceset="2N7002" device=""/>
-<part name="R22" library="openmotestm" deviceset="R-EU_" device="R0402"/>
+<part name="R22" library="openmotestm" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="SUPPLY10" library="openmotestm" deviceset="GND" device=""/>
 <part name="U$18" library="openmotestm" deviceset="MAX16054" device=""/>
 <part name="SUPPLY11" library="openmotestm" deviceset="GND" device=""/>
 <part name="U$19" library="openmotestm" deviceset="BUTTON" device=""/>
-<part name="R23" library="openmotestm" deviceset="R-EU_" device="R0402"/>
+<part name="R23" library="openmotestm" deviceset="R-EU_" device="R0402" value="100K"/>
 <part name="SUPPLY12" library="openmotestm" deviceset="GND" device=""/>
 <part name="U$20" library="openmotestm" deviceset="2N7002" device=""/>
-<part name="R24" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R25" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R26" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="C22" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="R24" library="openmotestm" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R25" library="openmotestm" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R26" library="openmotestm" deviceset="R-EU_" device="R0402" value="20K"/>
+<part name="C22" library="openmotestm" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="SUPPLY4" library="openmotestm" deviceset="GND" device=""/>
-<part name="R27" library="openmotestm" deviceset="R-EU_" device="R0402"/>
-<part name="R28" library="openmotestm" deviceset="R-EU_" device="R0402"/>
+<part name="R27" library="openmotestm" deviceset="R-EU_" device="R0402" value="0R"/>
+<part name="R28" library="openmotestm" deviceset="R-EU_" device="R0402" value="0R"/>
 <part name="SUPPLY7" library="openmotestm" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="openmotestm" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="openmotestm" deviceset="AGND" device=""/>
 <part name="SUPPLY15" library="openmotestm" deviceset="DGND" device=""/>
-<part name="C23" library="openmotestm" deviceset="C-EU" device="C0402"/>
+<part name="C23" library="openmotestm" deviceset="C-EU" device="C0402" value="100nF"/>
 <part name="SUPPLY16" library="openmotestm" deviceset="DGND" device=""/>
 <part name="U$22" library="openmotestm" deviceset="1X2" device=""/>
-<part name="C24" library="openmotestm" deviceset="C-EU" device="C0603"/>
+<part name="C24" library="openmotestm" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="SUPPLY17" library="openmotestm" deviceset="DGND" device=""/>
 <part name="SUPPLY18" library="openmotestm" deviceset="DGND" device=""/>
 <part name="SUPPLY19" library="openmotestm" deviceset="GND" device=""/>
+<part name="C8" library="openmotestm" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C13" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="C14" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="C16" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="C21" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13818,18 +13818,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="R9" gate="G$1" x="-165.1" y="-73.66" rot="R90"/>
 <instance part="R10" gate="G$1" x="-160.02" y="-73.66" rot="R90"/>
 <instance part="R11" gate="G$1" x="-152.4" y="-73.66" rot="R90"/>
-<instance part="C8" gate="G$1" x="-142.24" y="-81.28"/>
 <instance part="SUPPLY1" gate="GND" x="-170.18" y="-96.52"/>
 <instance part="C10" gate="G$1" x="-101.6" y="-38.1"/>
-<instance part="C13" gate="G$1" x="-93.98" y="-38.1"/>
 <instance part="SUPPLY2" gate="GND" x="-93.98" y="-45.72"/>
 <instance part="U$15" gate="G$1" x="-45.72" y="-38.1"/>
 <instance part="R12" gate="G$1" x="-78.74" y="-35.56"/>
-<instance part="C14" gate="G$1" x="-71.12" y="-43.18"/>
 <instance part="SUPPLY3" gate="GND" x="-71.12" y="-53.34"/>
 <instance part="R13" gate="G$1" x="-20.32" y="-30.48" rot="R90"/>
 <instance part="C15" gate="G$1" x="-12.7" y="-30.48"/>
-<instance part="C16" gate="G$1" x="-5.08" y="-35.56"/>
 <instance part="C17" gate="G$1" x="-27.94" y="-43.18"/>
 <instance part="R14" gate="G$1" x="-20.32" y="-45.72" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="-5.08" y="-53.34"/>
@@ -13844,7 +13840,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="R18" gate="G$1" x="7.62" y="-66.04" rot="R90"/>
 <instance part="R19" gate="G$1" x="27.94" y="-66.04" rot="R90"/>
 <instance part="R20" gate="G$1" x="38.1" y="-66.04" rot="R90"/>
-<instance part="C21" gate="G$1" x="15.24" y="-73.66" rot="R180"/>
 <instance part="D6" gate="G$1" x="27.94" y="-78.74"/>
 <instance part="D7" gate="G$1" x="38.1" y="-78.74"/>
 <instance part="SUPPLY8" gate="G$1" x="27.94" y="-88.9"/>
@@ -13877,6 +13872,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="SUPPLY17" gate="G$1" x="-182.88" y="-15.24"/>
 <instance part="SUPPLY18" gate="G$1" x="-175.26" y="43.18"/>
 <instance part="SUPPLY19" gate="GND" x="-198.12" y="-116.84"/>
+<instance part="C8" gate="G$1" x="-142.24" y="-81.28"/>
+<instance part="C13" gate="G$1" x="-93.98" y="-38.1"/>
+<instance part="C14" gate="G$1" x="-71.12" y="-43.18"/>
+<instance part="C16" gate="G$1" x="-5.08" y="-35.56"/>
+<instance part="C21" gate="G$1" x="15.24" y="-71.12"/>
 </instances>
 <busses>
 </busses>
@@ -13946,11 +13946,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-139.7" y1="-73.66" x2="-132.08" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="-73.66" x2="-142.24" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="-139.7" y="-73.66"/>
-<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="-142.24" y1="-73.66" x2="-142.24" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="-142.24" y="-73.66"/>
 <wire x1="-142.24" y1="-73.66" x2="-149.86" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-147.32" y="-73.66" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14068,7 +14068,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-137.16" y1="-78.74" x2="-132.08" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="-78.74" x2="-137.16" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="-137.16" y="-78.74"/>
-<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-137.16" y1="-88.9" x2="-142.24" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-88.9" x2="-142.24" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-88.9" x2="-152.4" y2="-88.9" width="0.1524" layer="91"/>
@@ -14086,23 +14085,24 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-165.1" y1="-88.9" x2="-170.18" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="-165.1" y="-88.9"/>
 <junction x="-170.18" y="-88.9"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="-43.18" x2="-93.98" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <junction x="-93.98" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="GND"/>
 <wire x1="-60.96" y1="-38.1" x2="-63.5" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-38.1" x2="-63.5" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="-71.12" y1="-48.26" x2="-71.12" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-50.8" x2="-63.5" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <junction x="-71.12" y="-50.8"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$16" gate="G$1" pin="GND"/>
@@ -14523,12 +14523,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-27.94" y1="-48.26" x2="-27.94" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-50.8" x2="-20.32" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="-50.8" x2="-5.08" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-50.8" x2="-5.08" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-20.32" y="-50.8"/>
 <pinref part="SUPPLY5" gate="G$1" pin="AGND"/>
 <junction x="-5.08" y="-50.8"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -14598,7 +14598,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="-86.36" x2="-15.24" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-86.36" x2="-15.24" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="-86.36" x2="15.24" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-86.36" x2="15.24" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="-15.24" y="-86.36"/>
@@ -14611,6 +14610,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="38.1" y1="-86.36" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="27.94" y="-86.36"/>
 <pinref part="SUPPLY8" gate="G$1" pin="DGND"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
@@ -14783,11 +14783,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <junction x="-88.9" y="-53.34"/>
 <wire x1="-88.9" y1="-53.34" x2="-88.9" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="-35.56" x2="-93.98" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-35.56" x2="-88.9" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="-93.98" y="-35.56"/>
 <junction x="-88.9" y="-35.56"/>
+<wire x1="-93.98" y1="-35.56" x2="-88.9" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="-35.56" x2="-83.82" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-88.9" y1="-53.34" x2="-81.28" y2="-53.34" width="0.1524" layer="91"/>
@@ -14805,6 +14803,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <junction x="-66.04" y="-71.12"/>
 <label x="-88.9" y="-33.02" size="1.778" layer="95" rot="R90"/>
 <wire x1="-88.9" y1="-35.56" x2="-88.9" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<junction x="-93.98" y="-35.56"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -14847,7 +14847,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="-7.62" y="-60.96"/>
-<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-60.96" x2="15.24" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-60.96" x2="15.24" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="7.62" y="-60.96"/>
@@ -14860,6 +14859,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="38.1" y1="-60.96" x2="48.26" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="38.1" y="-60.96"/>
 <label x="38.1" y="-60.96" size="1.778" layer="95"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCCA" class="0">
@@ -14913,10 +14913,10 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="-27.94" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="-12.7" y="-25.4"/>
-<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="-25.4" x2="-5.08" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-25.4"/>
 <label x="-5.08" y="-25.4" size="1.778" layer="95"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
