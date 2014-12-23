@@ -478,404 +478,404 @@ Source: www.qprox.com ... QT1106_-8IR0.07-16262.pdf</description>
 <vertex x="-1.325" y="-1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="1.85"/>
+<vertex x="-2.95" y="1.85"/>
 <vertex x="-2.1" y="1.85"/>
 <vertex x="-2.05" y="1.8"/>
 <vertex x="-2.05" y="1.65"/>
-<vertex x="-2.55" y="1.65"/>
+<vertex x="-2.95" y="1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="1.825"/>
+<vertex x="-2.925" y="1.825"/>
 <vertex x="-2.125" y="1.825"/>
 <vertex x="-2.075" y="1.775"/>
 <vertex x="-2.075" y="1.675"/>
-<vertex x="-2.525" y="1.675"/>
+<vertex x="-2.925" y="1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="1.35"/>
+<vertex x="-2.95" y="1.35"/>
 <vertex x="-2.05" y="1.35"/>
 <vertex x="-2.05" y="1.15"/>
-<vertex x="-2.55" y="1.15"/>
+<vertex x="-2.95" y="1.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="1.325"/>
+<vertex x="-2.925" y="1.325"/>
 <vertex x="-2.075" y="1.325"/>
 <vertex x="-2.075" y="1.175"/>
-<vertex x="-2.525" y="1.175"/>
+<vertex x="-2.925" y="1.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="0.85"/>
+<vertex x="-2.95" y="0.85"/>
 <vertex x="-2.05" y="0.85"/>
 <vertex x="-2.05" y="0.65"/>
-<vertex x="-2.55" y="0.65"/>
+<vertex x="-2.95" y="0.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="0.825"/>
+<vertex x="-2.925" y="0.825"/>
 <vertex x="-2.075" y="0.825"/>
 <vertex x="-2.075" y="0.675"/>
-<vertex x="-2.525" y="0.675"/>
+<vertex x="-2.925" y="0.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="0.35"/>
+<vertex x="-2.95" y="0.35"/>
 <vertex x="-2.05" y="0.35"/>
 <vertex x="-2.05" y="0.15"/>
-<vertex x="-2.55" y="0.15"/>
+<vertex x="-2.95" y="0.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="0.325"/>
+<vertex x="-2.925" y="0.325"/>
 <vertex x="-2.075" y="0.325"/>
 <vertex x="-2.075" y="0.175"/>
-<vertex x="-2.525" y="0.175"/>
+<vertex x="-2.925" y="0.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="-0.15"/>
+<vertex x="-2.95" y="-0.15"/>
 <vertex x="-2.05" y="-0.15"/>
 <vertex x="-2.05" y="-0.35"/>
-<vertex x="-2.55" y="-0.35"/>
+<vertex x="-2.95" y="-0.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-0.175"/>
+<vertex x="-2.925" y="-0.175"/>
 <vertex x="-2.075" y="-0.175"/>
 <vertex x="-2.075" y="-0.325"/>
-<vertex x="-2.525" y="-0.325"/>
+<vertex x="-2.925" y="-0.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="-0.65"/>
+<vertex x="-2.95" y="-0.65"/>
 <vertex x="-2.05" y="-0.65"/>
 <vertex x="-2.05" y="-0.85"/>
-<vertex x="-2.55" y="-0.85"/>
+<vertex x="-2.95" y="-0.85"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-0.675"/>
+<vertex x="-2.925" y="-0.675"/>
 <vertex x="-2.075" y="-0.675"/>
 <vertex x="-2.075" y="-0.825"/>
-<vertex x="-2.525" y="-0.825"/>
+<vertex x="-2.925" y="-0.825"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="-1.15"/>
+<vertex x="-2.95" y="-1.15"/>
 <vertex x="-2.05" y="-1.15"/>
 <vertex x="-2.05" y="-1.35"/>
-<vertex x="-2.55" y="-1.35"/>
+<vertex x="-2.95" y="-1.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-1.175"/>
+<vertex x="-2.925" y="-1.175"/>
 <vertex x="-2.075" y="-1.175"/>
 <vertex x="-2.075" y="-1.325"/>
-<vertex x="-2.525" y="-1.325"/>
+<vertex x="-2.925" y="-1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-2.55" y="-1.85"/>
+<vertex x="-2.95" y="-1.85"/>
 <vertex x="-2.1" y="-1.85"/>
 <vertex x="-2.05" y="-1.8"/>
 <vertex x="-2.05" y="-1.65"/>
-<vertex x="-2.55" y="-1.65"/>
+<vertex x="-2.95" y="-1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-2.525" y="-1.825"/>
+<vertex x="-2.925" y="-1.825"/>
 <vertex x="-2.125" y="-1.825"/>
 <vertex x="-2.075" y="-1.775"/>
 <vertex x="-2.075" y="-1.675"/>
-<vertex x="-2.525" y="-1.675"/>
+<vertex x="-2.925" y="-1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-1.85" y="-2.55"/>
+<vertex x="-1.85" y="-2.95"/>
 <vertex x="-1.85" y="-2.1"/>
 <vertex x="-1.8" y="-2.05"/>
 <vertex x="-1.65" y="-2.05"/>
-<vertex x="-1.65" y="-2.55"/>
+<vertex x="-1.65" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.825" y="-2.525"/>
+<vertex x="-1.825" y="-2.925"/>
 <vertex x="-1.825" y="-2.125"/>
 <vertex x="-1.775" y="-2.075"/>
 <vertex x="-1.675" y="-2.075"/>
-<vertex x="-1.675" y="-2.525"/>
+<vertex x="-1.675" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-1.35" y="-2.55"/>
+<vertex x="-1.35" y="-2.95"/>
 <vertex x="-1.35" y="-2.05"/>
 <vertex x="-1.15" y="-2.05"/>
-<vertex x="-1.15" y="-2.55"/>
+<vertex x="-1.15" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.325" y="-2.525"/>
+<vertex x="-1.325" y="-2.925"/>
 <vertex x="-1.325" y="-2.075"/>
 <vertex x="-1.175" y="-2.075"/>
-<vertex x="-1.175" y="-2.525"/>
+<vertex x="-1.175" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-0.85" y="-2.55"/>
+<vertex x="-0.85" y="-2.95"/>
 <vertex x="-0.85" y="-2.05"/>
 <vertex x="-0.65" y="-2.05"/>
-<vertex x="-0.65" y="-2.55"/>
+<vertex x="-0.65" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.825" y="-2.525"/>
+<vertex x="-0.825" y="-2.925"/>
 <vertex x="-0.825" y="-2.075"/>
 <vertex x="-0.675" y="-2.075"/>
-<vertex x="-0.675" y="-2.525"/>
+<vertex x="-0.675" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-0.35" y="-2.55"/>
+<vertex x="-0.35" y="-2.95"/>
 <vertex x="-0.35" y="-2.05"/>
 <vertex x="-0.15" y="-2.05"/>
-<vertex x="-0.15" y="-2.55"/>
+<vertex x="-0.15" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.325" y="-2.525"/>
+<vertex x="-0.325" y="-2.925"/>
 <vertex x="-0.325" y="-2.075"/>
 <vertex x="-0.175" y="-2.075"/>
-<vertex x="-0.175" y="-2.525"/>
+<vertex x="-0.175" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="0.15" y="-2.55"/>
+<vertex x="0.15" y="-2.95"/>
 <vertex x="0.15" y="-2.05"/>
 <vertex x="0.35" y="-2.05"/>
-<vertex x="0.35" y="-2.55"/>
+<vertex x="0.35" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.175" y="-2.525"/>
+<vertex x="0.175" y="-2.925"/>
 <vertex x="0.175" y="-2.075"/>
 <vertex x="0.325" y="-2.075"/>
-<vertex x="0.325" y="-2.525"/>
+<vertex x="0.325" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="0.65" y="-2.55"/>
+<vertex x="0.65" y="-2.95"/>
 <vertex x="0.65" y="-2.05"/>
 <vertex x="0.85" y="-2.05"/>
-<vertex x="0.85" y="-2.55"/>
+<vertex x="0.85" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.675" y="-2.525"/>
+<vertex x="0.675" y="-2.925"/>
 <vertex x="0.675" y="-2.075"/>
 <vertex x="0.825" y="-2.075"/>
-<vertex x="0.825" y="-2.525"/>
+<vertex x="0.825" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="1.15" y="-2.55"/>
+<vertex x="1.15" y="-2.95"/>
 <vertex x="1.15" y="-2.05"/>
 <vertex x="1.35" y="-2.05"/>
-<vertex x="1.35" y="-2.55"/>
+<vertex x="1.35" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.175" y="-2.525"/>
+<vertex x="1.175" y="-2.925"/>
 <vertex x="1.175" y="-2.075"/>
 <vertex x="1.325" y="-2.075"/>
-<vertex x="1.325" y="-2.525"/>
+<vertex x="1.325" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="1.85" y="-2.55"/>
+<vertex x="1.85" y="-2.95"/>
 <vertex x="1.85" y="-2.1"/>
 <vertex x="1.8" y="-2.05"/>
 <vertex x="1.65" y="-2.05"/>
-<vertex x="1.65" y="-2.55"/>
+<vertex x="1.65" y="-2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.825" y="-2.525"/>
+<vertex x="1.825" y="-2.925"/>
 <vertex x="1.825" y="-2.125"/>
 <vertex x="1.775" y="-2.075"/>
 <vertex x="1.675" y="-2.075"/>
-<vertex x="1.675" y="-2.525"/>
+<vertex x="1.675" y="-2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="-1.85"/>
+<vertex x="2.95" y="-1.85"/>
 <vertex x="2.1" y="-1.85"/>
 <vertex x="2.05" y="-1.8"/>
 <vertex x="2.05" y="-1.65"/>
-<vertex x="2.55" y="-1.65"/>
+<vertex x="2.95" y="-1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-1.825"/>
+<vertex x="2.925" y="-1.825"/>
 <vertex x="2.125" y="-1.825"/>
 <vertex x="2.075" y="-1.775"/>
 <vertex x="2.075" y="-1.675"/>
-<vertex x="2.525" y="-1.675"/>
+<vertex x="2.925" y="-1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="-1.35"/>
+<vertex x="2.95" y="-1.35"/>
 <vertex x="2.05" y="-1.35"/>
 <vertex x="2.05" y="-1.15"/>
-<vertex x="2.55" y="-1.15"/>
+<vertex x="2.95" y="-1.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-1.325"/>
+<vertex x="2.925" y="-1.325"/>
 <vertex x="2.075" y="-1.325"/>
 <vertex x="2.075" y="-1.175"/>
-<vertex x="2.525" y="-1.175"/>
+<vertex x="2.925" y="-1.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="-0.85"/>
+<vertex x="2.95" y="-0.85"/>
 <vertex x="2.05" y="-0.85"/>
 <vertex x="2.05" y="-0.65"/>
-<vertex x="2.55" y="-0.65"/>
+<vertex x="2.95" y="-0.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-0.825"/>
+<vertex x="2.925" y="-0.825"/>
 <vertex x="2.075" y="-0.825"/>
 <vertex x="2.075" y="-0.675"/>
-<vertex x="2.525" y="-0.675"/>
+<vertex x="2.925" y="-0.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="-0.35"/>
+<vertex x="2.95" y="-0.35"/>
 <vertex x="2.05" y="-0.35"/>
 <vertex x="2.05" y="-0.15"/>
-<vertex x="2.55" y="-0.15"/>
+<vertex x="2.95" y="-0.15"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="-0.325"/>
+<vertex x="2.925" y="-0.325"/>
 <vertex x="2.075" y="-0.325"/>
 <vertex x="2.075" y="-0.175"/>
-<vertex x="2.525" y="-0.175"/>
+<vertex x="2.925" y="-0.175"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="0.15"/>
+<vertex x="2.95" y="0.15"/>
 <vertex x="2.05" y="0.15"/>
 <vertex x="2.05" y="0.35"/>
-<vertex x="2.55" y="0.35"/>
+<vertex x="2.95" y="0.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="0.175"/>
+<vertex x="2.925" y="0.175"/>
 <vertex x="2.075" y="0.175"/>
 <vertex x="2.075" y="0.325"/>
-<vertex x="2.525" y="0.325"/>
+<vertex x="2.925" y="0.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="0.65"/>
+<vertex x="2.95" y="0.65"/>
 <vertex x="2.05" y="0.65"/>
 <vertex x="2.05" y="0.85"/>
-<vertex x="2.55" y="0.85"/>
+<vertex x="2.95" y="0.85"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="0.675"/>
+<vertex x="2.925" y="0.675"/>
 <vertex x="2.075" y="0.675"/>
 <vertex x="2.075" y="0.825"/>
-<vertex x="2.525" y="0.825"/>
+<vertex x="2.925" y="0.825"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="1.15"/>
+<vertex x="2.95" y="1.15"/>
 <vertex x="2.05" y="1.15"/>
 <vertex x="2.05" y="1.35"/>
-<vertex x="2.55" y="1.35"/>
+<vertex x="2.95" y="1.35"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="1.175"/>
+<vertex x="2.925" y="1.175"/>
 <vertex x="2.075" y="1.175"/>
 <vertex x="2.075" y="1.325"/>
-<vertex x="2.525" y="1.325"/>
+<vertex x="2.925" y="1.325"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="2.55" y="1.85"/>
+<vertex x="2.95" y="1.85"/>
 <vertex x="2.1" y="1.85"/>
 <vertex x="2.05" y="1.8"/>
 <vertex x="2.05" y="1.65"/>
-<vertex x="2.55" y="1.65"/>
+<vertex x="2.95" y="1.65"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="2.525" y="1.825"/>
+<vertex x="2.925" y="1.825"/>
 <vertex x="2.125" y="1.825"/>
 <vertex x="2.075" y="1.775"/>
 <vertex x="2.075" y="1.675"/>
-<vertex x="2.525" y="1.675"/>
+<vertex x="2.925" y="1.675"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="1.85" y="2.55"/>
+<vertex x="1.85" y="2.95"/>
 <vertex x="1.85" y="2.1"/>
 <vertex x="1.8" y="2.05"/>
 <vertex x="1.65" y="2.05"/>
-<vertex x="1.65" y="2.55"/>
+<vertex x="1.65" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.825" y="2.525"/>
+<vertex x="1.825" y="2.925"/>
 <vertex x="1.825" y="2.125"/>
 <vertex x="1.775" y="2.075"/>
 <vertex x="1.675" y="2.075"/>
-<vertex x="1.675" y="2.525"/>
+<vertex x="1.675" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="1.35" y="2.55"/>
+<vertex x="1.35" y="2.95"/>
 <vertex x="1.35" y="2.05"/>
 <vertex x="1.15" y="2.05"/>
-<vertex x="1.15" y="2.55"/>
+<vertex x="1.15" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="1.325" y="2.525"/>
+<vertex x="1.325" y="2.925"/>
 <vertex x="1.325" y="2.075"/>
 <vertex x="1.175" y="2.075"/>
-<vertex x="1.175" y="2.525"/>
+<vertex x="1.175" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="0.85" y="2.55"/>
+<vertex x="0.85" y="2.95"/>
 <vertex x="0.85" y="2.05"/>
 <vertex x="0.65" y="2.05"/>
-<vertex x="0.65" y="2.55"/>
+<vertex x="0.65" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.825" y="2.525"/>
+<vertex x="0.825" y="2.925"/>
 <vertex x="0.825" y="2.075"/>
 <vertex x="0.675" y="2.075"/>
-<vertex x="0.675" y="2.525"/>
+<vertex x="0.675" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="0.35" y="2.55"/>
+<vertex x="0.35" y="2.95"/>
 <vertex x="0.35" y="2.05"/>
 <vertex x="0.15" y="2.05"/>
-<vertex x="0.15" y="2.55"/>
+<vertex x="0.15" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="0.325" y="2.525"/>
+<vertex x="0.325" y="2.925"/>
 <vertex x="0.325" y="2.075"/>
 <vertex x="0.175" y="2.075"/>
-<vertex x="0.175" y="2.525"/>
+<vertex x="0.175" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-0.15" y="2.55"/>
+<vertex x="-0.15" y="2.95"/>
 <vertex x="-0.15" y="2.05"/>
 <vertex x="-0.35" y="2.05"/>
-<vertex x="-0.35" y="2.55"/>
+<vertex x="-0.35" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.175" y="2.525"/>
+<vertex x="-0.175" y="2.925"/>
 <vertex x="-0.175" y="2.075"/>
 <vertex x="-0.325" y="2.075"/>
-<vertex x="-0.325" y="2.525"/>
+<vertex x="-0.325" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-0.65" y="2.55"/>
+<vertex x="-0.65" y="2.95"/>
 <vertex x="-0.65" y="2.05"/>
 <vertex x="-0.85" y="2.05"/>
-<vertex x="-0.85" y="2.55"/>
+<vertex x="-0.85" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-0.675" y="2.525"/>
+<vertex x="-0.675" y="2.925"/>
 <vertex x="-0.675" y="2.075"/>
 <vertex x="-0.825" y="2.075"/>
-<vertex x="-0.825" y="2.525"/>
+<vertex x="-0.825" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-1.15" y="2.55"/>
+<vertex x="-1.15" y="2.95"/>
 <vertex x="-1.15" y="2.05"/>
 <vertex x="-1.35" y="2.05"/>
-<vertex x="-1.35" y="2.55"/>
+<vertex x="-1.35" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.175" y="2.525"/>
+<vertex x="-1.175" y="2.925"/>
 <vertex x="-1.175" y="2.075"/>
 <vertex x="-1.325" y="2.075"/>
-<vertex x="-1.325" y="2.525"/>
+<vertex x="-1.325" y="2.925"/>
 </polygon>
 <polygon width="0.1016" layer="29">
-<vertex x="-1.85" y="2.55"/>
+<vertex x="-1.85" y="2.95"/>
 <vertex x="-1.85" y="2.1"/>
 <vertex x="-1.8" y="2.05"/>
 <vertex x="-1.65" y="2.05"/>
-<vertex x="-1.65" y="2.55"/>
+<vertex x="-1.65" y="2.95"/>
 </polygon>
 <polygon width="0.1016" layer="31">
-<vertex x="-1.825" y="2.525"/>
+<vertex x="-1.825" y="2.925"/>
 <vertex x="-1.825" y="2.125"/>
 <vertex x="-1.775" y="2.075"/>
 <vertex x="-1.675" y="2.075"/>
-<vertex x="-1.675" y="2.525"/>
+<vertex x="-1.675" y="2.925"/>
 </polygon>
 </package>
 <package name="LQFP-ST-64-2">
