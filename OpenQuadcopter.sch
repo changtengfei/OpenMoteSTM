@@ -14241,18 +14241,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="-27.94" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDL/PB6" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="DIO11"/>
-<wire x1="109.22" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
-<label x="93.98" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="SCL/SCLK"/>
-<wire x1="-33.02" y1="88.9" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
-<label x="-27.94" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="INT/PA4" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="RES@8"/>
@@ -14982,6 +14970,18 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U$14" gate="G$1" pin="TXD"/>
 <wire x1="-149.86" y1="45.72" x2="-149.86" y2="60.96" width="0.1524" layer="91"/>
 <label x="-149.86" y="53.34" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="SCL/PB6" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="DIO11"/>
+<wire x1="109.22" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="93.98" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SCL/SCLK"/>
+<wire x1="-33.02" y1="88.9" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
+<label x="-27.94" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

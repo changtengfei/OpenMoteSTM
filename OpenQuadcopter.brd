@@ -3307,18 +3307,6 @@ design rules under a new name.</description>
 <wire x1="-6.604" y1="-1.524" x2="-9.406" y2="-1.524" width="0.254" layer="1"/>
 <wire x1="-9.406" y1="-1.524" x2="-9.5" y2="-1.43" width="0.254" layer="1"/>
 </signal>
-<signal name="SDL/PB6">
-<contactref element="U$11" pad="7"/>
-<contactref element="U1" pad="23"/>
-<wire x1="-10.668" y1="-0.508" x2="-6.604" y2="-0.508" width="0.254" layer="1"/>
-<wire x1="-6.604" y1="-0.508" x2="-3.048" y2="3.048" width="0.254" layer="1"/>
-<wire x1="-3.048" y1="3.048" x2="-3.048" y2="3.81" width="0.254" layer="1"/>
-<wire x1="-3.048" y1="3.81" x2="-2.54" y2="4.318" width="0.254" layer="1"/>
-<wire x1="-2.54" y1="4.318" x2="-2.0817" y2="4.318" width="0.254" layer="1"/>
-<wire x1="-2.0817" y1="4.318" x2="-2.0816" y2="4.3179" width="0.254" layer="1"/>
-<wire x1="-12.5" y1="-3.43" x2="-12.5" y2="-2.34" width="0.254" layer="1"/>
-<wire x1="-12.5" y1="-2.34" x2="-10.668" y2="-0.508" width="0.254" layer="1"/>
-</signal>
 <signal name="INT/PA4">
 <contactref element="U$11" pad="8"/>
 <contactref element="U1" pad="12"/>
@@ -4123,6 +4111,18 @@ design rules under a new name.</description>
 <wire x1="2.158903125" y1="0" x2="0.254" y2="0" width="0.254" layer="16"/>
 <wire x1="0.254" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="16"/>
 <wire x1="-1.016" y1="1.27" x2="-3.556" y2="1.27" width="0.254" layer="16"/>
+</signal>
+<signal name="SCL/PB6">
+<contactref element="U$11" pad="7"/>
+<contactref element="U1" pad="23"/>
+<wire x1="-10.668" y1="-0.508" x2="-6.604" y2="-0.508" width="0.254" layer="1"/>
+<wire x1="-6.604" y1="-0.508" x2="-3.048" y2="3.048" width="0.254" layer="1"/>
+<wire x1="-3.048" y1="3.048" x2="-3.048" y2="3.81" width="0.254" layer="1"/>
+<wire x1="-3.048" y1="3.81" x2="-2.54" y2="4.318" width="0.254" layer="1"/>
+<wire x1="-2.54" y1="4.318" x2="-2.0817" y2="4.318" width="0.254" layer="1"/>
+<wire x1="-2.0817" y1="4.318" x2="-2.0816" y2="4.3179" width="0.254" layer="1"/>
+<wire x1="-12.5" y1="-2.34" x2="-10.668" y2="-0.508" width="0.254" layer="1"/>
+<wire x1="-12.5" y1="-2.34" x2="-12.5" y2="-3.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
