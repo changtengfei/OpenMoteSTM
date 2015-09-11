@@ -13661,24 +13661,24 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <parts>
 <part name="U1" library="openmotestm" deviceset="MPU-6000" device="QFN-24" value="MPU-6050QFN-24"/>
 <part name="U$1" library="openmotestm" deviceset="HMC5883L" device="SMD" value="HMC5883L-SMD"/>
-<part name="U$2" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
+<part name="U$2" library="openmotestm" deviceset="MOSFET" device="" value="PMV31XN"/>
 <part name="U$11" library="openmotestm" deviceset="XBEE-1" device="B3"/>
 <part name="U$12" library="openmotestm" deviceset="SWITCH_SPDT" device=""/>
 <part name="U$3" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="BAT54" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="U$4" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
+<part name="U$4" library="openmotestm" deviceset="MOSFET" device="" value="PMV31XN"/>
 <part name="U$5" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="BAT54" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="U$6" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
+<part name="U$6" library="openmotestm" deviceset="MOSFET" device="" value="PMV31XN"/>
 <part name="U$7" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="diode" deviceset="BAT54" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="U$8" library="openmotestm" deviceset="MOSFET" device="" value="PWV31XN"/>
+<part name="U$8" library="openmotestm" deviceset="MOSFET" device="" value="PMV31XN"/>
 <part name="U$9" library="openmotestm" deviceset="MOTOR" device="10MM" value="MOTOR"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D4" library="diode" deviceset="BAT54" device=""/>
