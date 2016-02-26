@@ -2928,7 +2928,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-17.94374375" y="3.365821875" size="0.6096" layer="26" rot="MR315"/>
 <attribute name="VALUE" x="-16.14769375" y="1.56976875" size="0.6096" layer="28" rot="MR315"/>
 </element>
-<element name="C1" library="openmotestm" package="C0402" value="4.7uF" x="9.652" y="-1.524" smashed="yes" rot="MR135">
+<element name="C1" library="openmotestm" package="C0402" value="0.1uF" x="9.652" y="-1.524" smashed="yes" rot="MR135">
 <attribute name="NAME" x="10.414" y="-0.644025" size="0.6096" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="7.85595" y="-0.625971875" size="1.27" layer="28" rot="MR135"/>
 </element>

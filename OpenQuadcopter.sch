@@ -13765,7 +13765,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="C14" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="C16" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="C21" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
-<part name="C1" library="openmotestm" deviceset="C-EU" device="C0402" value="4.7uF"/>
+<part name="C1" library="openmotestm" deviceset="C-EU" device="C0402" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
