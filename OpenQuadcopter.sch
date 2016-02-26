@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13765,6 +13765,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="C14" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="C16" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
 <part name="C21" library="openmotestm" deviceset="C-EU" device="C0603" value="4.7uF"/>
+<part name="C1" library="openmotestm" deviceset="C-EU" device="C0402" value="4.7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13877,6 +13878,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="C14" gate="G$1" x="-71.12" y="-43.18"/>
 <instance part="C16" gate="G$1" x="-5.08" y="-35.56"/>
 <instance part="C21" gate="G$1" x="15.24" y="-71.12"/>
+<instance part="C1" gate="G$1" x="-182.88" y="20.32" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -14982,6 +14984,21 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="U1" gate="G$1" pin="SCL/SCLK"/>
 <wire x1="-33.02" y1="88.9" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
 <label x="-27.94" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="GND3"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="-175.26" y1="20.32" x2="-177.8" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="VDD"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-175.26" y1="5.08" x2="-185.42" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="5.08" x2="-185.42" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
